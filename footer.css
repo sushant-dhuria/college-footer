@@ -1,0 +1,170 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.footer-container{
+    display: flex;
+    background-color: #2167A7;
+    color: aliceblue;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 75%;
+    justify-content: space-between;
+    font-family: 'Inter', sans-serif;
+
+}
+.footer-sec-1{
+    width: 40%;
+    margin-left: 6%;
+    margin-top: 5%;
+}
+.logo{
+    width: 15%;
+    height: 17%;
+    margin-right: 2%;
+}
+.logo img{
+    width: 100%;
+    height: 100%;
+}
+.footer-heading{
+    display: flex;
+    justify-content: space-between;
+    font-size: 11px;
+    align-items: center;
+    width: 80%;
+}
+.footer-details{
+    font-size: 12px;
+}
+
+
+.row1{
+width: 70%;
+    display: flex;
+    margin: 16px 0;
+    opacity: 0.8;
+}
+.row1 i{
+    margin:0 8px;
+}
+.vertical {
+    margin-top: 4%;
+    border-left: 2px dashed #fff;
+    height: 75%;
+    position:relative;
+    opacity: 0.4;
+}
+.footer-sec-2{
+    margin-top: 5%;
+display: flex;
+justify-content: space-between;
+width: 50%;
+margin-right: 3%;
+margin-left: 2%;
+}
+.footer-col-2{
+    display: flex;
+    flex-direction: column;
+    margin-top: 6%;
+    font-size: 14px;
+}
+.footer-col-2 a{
+    color: aliceblue;
+    text-decoration: none;
+    opacity: 0.8;
+}
+.links{
+    display: flex;
+    flex-direction: column;
+    opacity: 0.8;
+    margin-top: 10%;
+}
+.footer-col-1 a{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+}
+.social-media{
+    position: absolute;
+    top: 90%;
+    display: flex;
+left:42%;
+}
+.social-media .icon{
+    margin:6px;
+}
+.contactlist{
+    margin-top: 5%;
+    margin-left: 5%;
+}
+.contactlist a{
+    color: #fff;
+    opacity: 0.99;
+
+    font-family: 'Inter', sans-serif;
+}
+
+@media only screen and (max-width:965px) {
+    .footer-container{
+        flex-direction: column;
+        justify-content: space-between;
+        height: 80%;
+    }
+    .footer-sec-1{
+        width: 80%;
+        margin: auto;
+  
+    }
+    .footer-col-1 h3{
+        margin-bottom: 10%;
+    }
+ .footer-heading{
+     font-size: 10px;
+ }
+ .footer-details{
+     font-size: 8px;
+ }
+ .logo{
+     width: 35%;
+     height: 35%;
+ }
+ .social-media{
+    position: absolute;
+    top: 14%;
+    display: flex;
+    flex-direction: column;
+left:82%;
+}
+.social-media .icon{
+    margin:6px;
+}
+.vertical{
+    display: none;
+}
+.footer-sec-2{
+    width:90%;
+    justify-content: space-between;
+   
+}
+.footer-col-2{
+    font-size: 8px;
+   margin-bottom: 5%;
+  
+}
+.footer-col-1 a{
+    font-size: 8px;
+    
+}
+.footer-col-1{
+    margin-left: 2%;
+    margin-bottom: 10%;
+}
+}
