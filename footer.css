@@ -38,6 +38,7 @@
 }
 .footer-details{
     font-size: 12px;
+    width: 150%;
 }
 
 
@@ -70,17 +71,22 @@ margin-left: 2%;
     flex-direction: column;
     margin-top: 6%;
     font-size: 14px;
+
 }
 .footer-col-2 a{
     color: aliceblue;
     text-decoration: none;
     opacity: 0.8;
+    margin-bottom: 3px;
 }
 .links{
     display: flex;
     flex-direction: column;
     opacity: 0.8;
     margin-top: 10%;
+}
+.links a{
+    margin-bottom: 2px;
 }
 .footer-col-1 a{
     color: aliceblue;
@@ -96,10 +102,12 @@ footer{
     position: absolute;
     top: 90%;
     display: flex;
-left:42%;
+left:39%;
 }
-.social-media .icon{
+.social-media .icon a{
     margin:6px;
+    color: #fff !important;
+    font-size: 24px;
 }
 .contactlist{
     margin-top: 5%;
