@@ -121,7 +121,9 @@ left:36.5%;
 .contactlist a{
     color: #fff;
     opacity: 0.99;
-
+   padding-bottom: 3px;
+    border-bottom: 1px solid #fff;
+    font-weight: 550;
     font-family: 'Inter', sans-serif;
 }
 /*media queries for footer*/
